@@ -1,5 +1,5 @@
 <div class="product_list">
-  <ul class="list-group">
+  <ul class="list-group"  *ngFor="let product of product">
     <li class="list-group-item">
       <input
         class="form-check-input me-4"
@@ -7,25 +7,10 @@
         value=""
         aria-label="..."
       />
-      <span class="sku">sku</span> <br />
-      <span class="name">name</span> <br />
-      <span class="price">price</span> <br />
-      <span class="attribute">attribute</span>
-    </li>
-  </ul>
-
-  <ul class="list-group">
-    <li class="list-group-item">
-      <input
-        class="form-check-input me-4"
-        type="checkbox"
-        value=""
-        aria-label="..."
-      />
-      <span class="sku">sku</span> <br />
-      <span class="name">name</span> <br />
-      <span class="price">price</span> <br />
-      <span class="attribute">attribute</span>
+      <span class="sku">{{ product.id }}</span> <br />
+      <span class="name">{{ product.name }}</span> <br />
+      <span class="price">{{ product.price }}</span> <br />
+      <span class="attribute">{{ product.description }}</span>
     </li>
   </ul>
 </div>
