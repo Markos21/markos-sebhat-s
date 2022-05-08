@@ -1,0 +1,13 @@
+.product_list {
+  width: fit-content;
+  padding: 15px;
+}
+.list-group-item span {
+  padding: 12px;
+  text-align: center;
+}
+
+.list-group {
+  display: inline-block;
+  padding: 15px;
+}

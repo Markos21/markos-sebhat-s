@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { NavbarComponent } from '../navbar/navbar.component';
 import { ProductListComponent } from '../product-list/product-list.component';
+import { FooterComponent } from '../footer/footer.component';
+
 @NgModule({
   imports: [BrowserModule, FormsModule],
   declarations: [
@@ -13,6 +15,7 @@ import { ProductListComponent } from '../product-list/product-list.component';
     HelloComponent,
     NavbarComponent,
     ProductListComponent,
+    FooterComponent,
   ],
   bootstrap: [AppComponent],
 })
