@@ -7,6 +7,7 @@ import { HelloComponent } from './hello.component';
 import { NavbarComponent } from '../navbar/navbar.component';
 import { ProductListComponent } from '../product-list/product-list.component';
 import { FooterComponent } from '../footer/footer.component';
+import { AddProductComponent } from '../add-product/add-product.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -15,6 +16,7 @@ import { FooterComponent } from '../footer/footer.component';
     HelloComponent,
     NavbarComponent,
     ProductListComponent,
+    AddProductComponent,
     FooterComponent,
   ],
   bootstrap: [AppComponent],
